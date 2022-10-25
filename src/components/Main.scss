@@ -1,0 +1,42 @@
+@import "variables";
+
+body {
+    font-family: $text-font;
+    color: $text-color;
+}
+
+h1, h2, h3, h4 {
+    font-family: $headline-font;
+}
+
+p {
+    font-family: $text-font;
+}
+
+a {
+    color: $link-color
+}
+
+#header {
+    height: $header-height;
+    background-color: $theme-color;
+
+    #main-menu {
+        li {
+            display: inline;
+        }
+        a {
+            color: $menu-item-color;
+        }
+    }
+}
+
+#main {
+    width: $content-widht;
+    margin: auto;
+}
+
+#footer {
+    height: $footer-height;
+    background-color: $ternary-color;
+}
