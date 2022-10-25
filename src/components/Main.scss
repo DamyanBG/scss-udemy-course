@@ -1,12 +1,26 @@
 @import "variables";
+@import "mixins";
+
+@include google-font("Alegreya+Sans");
+@include google-font("Titilium+Web");
+
+@include fancy-links;
 
 body {
     font-family: $text-font;
     color: $text-color;
+
+    @include large-screens {
+        font-size: 125%;
+    }
 }
 
 h1, h2, h3, h4 {
     font-family: $headline-font;
+}
+
+h2 {
+    @include large_text;
 }
 
 p {
@@ -17,7 +31,20 @@ a {
     color: $link-color
 }
 
+#warning-button {
+    @include warning;
+    padding: 8px 12px;
+}
+
+@include apply-to-ie-6 {
+    body {
+        font-size: 125%;
+    }
+}
+
 #header {
+    @include box(8px, 1px solid #999);
+    @include box-shadow(2px 0px 4px #999, 1px 1px 6px $secondary-color);
     height: $header-height;
     background-color: $theme-color;
 
@@ -33,6 +60,10 @@ a {
 
 #main {
     width: $content-widht;
+    @include large-screens {
+        width: auto;
+        max-width: $content-widht;
+    }
     margin: auto;
 }
 
