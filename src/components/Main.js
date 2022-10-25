@@ -1,4 +1,4 @@
-import React from "react";
+ import React from "react";
 import "./Main.scss"
 
 const Main = () => {
@@ -22,6 +22,7 @@ const Main = () => {
                 <section id="introduction">
                     <h2>Hi, I am Mr. Website!</h2>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, quaerat quisquam odit minus ut esse tenetur blanditiis porro ipsa. Ipsum illo harum non. Magni amet rerum iure cum nesciunt quasi?</p>
+                    <button id="warning-button">Something went wrong</button>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, quaerat quisquam odit minus ut esse tenetur blanditiis porro ipsa. Ipsum illo harum non. Magni amet rerum iure cum nesciunt quasi?</p>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, quaerat quisquam odit minus ut esse tenetur blanditiis porro ipsa. Ipsum illo harum non. Magni amet rerum iure cum nesciunt quasi?</p>
                 </section>
