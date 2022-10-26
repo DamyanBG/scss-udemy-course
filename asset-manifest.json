@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.fa4c2122.css",
-    "main.js": "/static/js/main.6ac2e05b.js",
-    "static/js/787.54489ef1.chunk.js": "/static/js/787.54489ef1.chunk.js",
-    "index.html": "/index.html",
-    "main.fa4c2122.css.map": "/static/css/main.fa4c2122.css.map",
-    "main.6ac2e05b.js.map": "/static/js/main.6ac2e05b.js.map",
-    "787.54489ef1.chunk.js.map": "/static/js/787.54489ef1.chunk.js.map"
+    "main.css": "/scss-udemy-course/static/css/main.fa4c2122.css",
+    "main.js": "/scss-udemy-course/static/js/main.573a4c13.js",
+    "static/js/787.54489ef1.chunk.js": "/scss-udemy-course/static/js/787.54489ef1.chunk.js",
+    "index.html": "/scss-udemy-course/index.html",
+    "main.fa4c2122.css.map": "/scss-udemy-course/static/css/main.fa4c2122.css.map",
+    "main.573a4c13.js.map": "/scss-udemy-course/static/js/main.573a4c13.js.map",
+    "787.54489ef1.chunk.js.map": "/scss-udemy-course/static/js/787.54489ef1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fa4c2122.css",
-    "static/js/main.6ac2e05b.js"
+    "static/js/main.573a4c13.js"
   ]
 }
