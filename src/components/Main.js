@@ -21,9 +21,9 @@ const Main = () => {
                 <h1>Welcome to My Site!</h1>
                 <section id="introduction">
                     <h2>Hi, I am Mr. Website!</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, quaerat quisquam odit minus ut esse tenetur blanditiis porro ipsa. Ipsum illo harum non. Magni amet rerum iure cum nesciunt quasi?</p>
-                    <button id="warning-button">Something went wrong</button>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, quaerat quisquam odit minus ut esse tenetur blanditiis porro ipsa. Ipsum illo harum non. Magni amet rerum iure cum nesciunt quasi?</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <a href="">Incidunt</a>, quaerat quisquam odit minus ut esse tenetur blanditiis porro ipsa. Ipsum illo harum non. Magni amet rerum iure cum nesciunt quasi?</p>
+                    <button className="warning-button" id="warning-button">Something went wrong</button>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, quaerat <a href="">quisquam</a> odit minus ut esse tenetur blanditiis porro ipsa. Ipsum illo harum non. Magni amet rerum iure cum nesciunt quasi?</p>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, quaerat quisquam odit minus ut esse tenetur blanditiis porro ipsa. Ipsum illo harum non. Magni amet rerum iure cum nesciunt quasi?</p>
                 </section>
                 <section id="promo">
